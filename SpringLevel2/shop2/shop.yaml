@@ -1,0 +1,15 @@
+server:
+  port: ${client.shop.server.port}
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://192.168.10.51:3306/shop3?serverTimezone=UTC
+    username: root
+    password: 0WN3PGgqsJ!%
+  flyway:
+    baseline-on-migrate: true
