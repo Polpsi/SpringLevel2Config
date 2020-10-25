@@ -1,0 +1,13 @@
+server:
+  port: 8083
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://192.168.10.51:3306/shop3?serverTimezone=UTC
+    username: root
+    password: 0WN3PGgqsJ!%
